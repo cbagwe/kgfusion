@@ -1,0 +1,62 @@
+@prefix : <urn:example:plugin-demo/> .
+@prefix fcage: <https://w3id.org/fcage/> .
+@prefix deer: <https://w3id.org/deer/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix geos: <http://www.opengis.net/ont/geosparql#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+:reader                #will be replaced with the output of ontology operator
+  a deer:SparqlModelReader ;
+  deer:useSparqlDescribeOf <http://dbpedia.org/resource/Khipro> ;
+  deer:fromEndpoint <http://dbpedia.org/sparql> ;
+  fcage:hasOutput :matcher ;
+.
+
+:matcher
+ a deer:IntanceMatchingOperator ;
+ deer:coverage "0.70" ;			   #Coverage of a Property     #propteryCount/TotalInstanceCount
+ deer:maxLimit "10";           #Maximum number of Properties
+ deer:test "true";
+ fcage:hasInput :reader ;
+.
+
+### Just for output so i dont have to run everything
+#:writer2
+ #a deer:FileModelWriter ;
+ # deer:outputFile "data/instanceMatchingOutput.ttl";
+ # deer:outputFormat "turtle";
+ # fcage:hasInput :matcher ; ##test if that builds me an output
+#.
+
+
+### Configuration should be more precise
+### Fusionstrategy by Type/Predicate
+:consolidation
+ a deer:ConsolidationOperator ;
+ deer:sameAs "http://www.w3.org/2002/07/owl#sameAs"; # predicate that symbolizes equality
+ deer:entityName "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"; #predicate describes the given entitys
+ deer:sourceName "https://w3id.org/deer/datasetSource"; # predicate of the data Source
+ deer:targetName "https://w3id.org/deer/datasetTarget"; # predicate of the data Target
+ deer:addTarget "true"^^xsd:boolean ; # integrate unmatched from the target dataset
+ deer:namespaceForIntegration "https://w3id.org/deer/nameprefix/"; # prefix for integration of unmatched from target to source
+ ## Throw it in https://dice-group.github.io/deer/#/nodes?id=authority-conformation-enrichment-operator-deerauthorityconformationenrichmentoperator
+ deer:provenanceProperty "https://w3id.org/deer/provenance";
+ deer:globalFusionStrategy "standard"; # standard, precise, expertise, [...]
+ deer:outputVariant "ttl"; # output file
+ deer:propertyFusion [ # Strategy by Propertys, if not defined use globalFusion
+    deer:propertyValue "http://xmlns.com/foaf/0.1/name"; ##property of the source Dataset
+    deer:fusionStrategy "expertiseTarget"; ## same as globalstrategy
+                    ];
+
+
+ fcage:hasInput :matcher ;
+ #fcage:hasInput :writer2 ;
+ .
+:writer
+  a deer:FileModelWriter ;
+  deer:outputFile "output_consolidation.ttl";
+  deer:outputFormat "turtle";
+  fcage:hasInput :consolidation ;
+.
