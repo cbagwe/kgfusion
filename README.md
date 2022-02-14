@@ -1,4 +1,3 @@
-
 # LIMES - Link Discovery Framework for Metric Spaces.
 
 [![Build Status](https://github.com/dice-group/LIMES/actions/workflows/run-tests.yml/badge.svg?branch=master&event=push)](https://github.com/dice-group/LIMES/actions/workflows/run-tests.yml)
@@ -19,12 +18,12 @@
 # Guide: How to run example of Type Driven Wombat Simple
 
 #### Step 1:  Clone the repository and change branch to typeDrivenWombatSimple
-    git clone https://github.com/binhudakhalid/LIMES.git --branch typeDrivenWombatSimple
+    git clone https://git.cs.uni-paderborn.de/kgfusionpg/kgfusion.git --branch type_driven_wombat_simple
     
 #### Step 2: Build lIMES
 Go to limes-core directory and run
 
-    cd LIMES/limes-core
+    cd kgfusion/limes-core/
     mvn clean package shade:shade -Dcheckstyle.skip=true -Dmaven.test.skip=true
     
 #### Step 3: Start the lIMES as a server
@@ -32,9 +31,9 @@ Go to limes-core directory and run
     java -jar target/limes-core-1.7.6-SNAPSHOT.jar -s
     
 #### Step 4: 
-Go to datasets folder, In this folder, you can find limes configuration file "Type-Driven-Amazon-GoogleProducts.xml" and datasets. 
+Go to datasets folder, In this folder, you can find limes configuration file "Type-Driven-Amazon-GoogleProducts.xml" and datasets. Open a new terminal and change directory to kgfusion/limes-core/src/main/resources/datasets
 
-    cd LIMES/limes-core/src/main/resources/datasets
+    cd kgfusion/limes-core/src/main/resources/datasets
     
 #### Step 5: Sumbit the config file through curl
   
