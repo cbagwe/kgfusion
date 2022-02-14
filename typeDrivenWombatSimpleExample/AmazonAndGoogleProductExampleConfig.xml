@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE LIMES SYSTEM "limes.dtd">
+<LIMES>
+<PREFIX>
+  <NAMESPACE>http://www.w3.org/2002/07/owl#</NAMESPACE>
+  <LABEL>owl</LABEL>
+</PREFIX>
+<PREFIX>
+  <NAMESPACE>http://schema.org/</NAMESPACE>
+  <LABEL>url</LABEL>
+</PREFIX>
+<PREFIX>
+  <NAMESPACE>http://www.w3.org/1999/02/22-rdf-syntax-ns#</NAMESPACE>
+  <LABEL>rdf</LABEL>
+</PREFIX>
+<PREFIX>
+  <NAMESPACE>http://dbpedia.org/ontology/</NAMESPACE>
+  <LABEL>dbpo</LABEL>
+</PREFIX>
+<PREFIX>
+  <NAMESPACE>http://www.w3.org/2000/01/rdf-schema#</NAMESPACE>
+  <LABEL>rdfs</LABEL>
+</PREFIX>
+<PREFIX>
+  <NAMESPACE>http://purl.org/dc/terms/</NAMESPACE>
+  <LABEL>pudc</LABEL>
+</PREFIX>
+<PREFIX>
+  <NAMESPACE>http://dbpedia.org/property/</NAMESPACE>
+  <LABEL>dbpr</LABEL>
+</PREFIX>
+<PREFIX>
+  <NAMESPACE>http://xmlns.com/foaf/0.1/</NAMESPACE>
+  <LABEL>xmfo</LABEL>
+</PREFIX>
+<PREFIX>
+  <NAMESPACE>http://www.w3.org/2000/01/rdf-schema#</NAMESPACE>
+  <LABEL>w3200</LABEL>
+</PREFIX>
+
+
+<SOURCE>
+  <ID>sourceId</ID>
+ <ENDPOINT> path to AmazonFile.csv</ENDPOINT>
+  <VAR>?s</VAR>
+  <PAGESIZE>-1</PAGESIZE>
+  <RESTRICTION></RESTRICTION>
+  <PROPERTY>id</PROPERTY>
+  <PROPERTY>title</PROPERTY>
+  <PROPERTY>description</PROPERTY>
+  <PROPERTY>manufacturer</PROPERTY>
+  <PROPERTY>price</PROPERTY>
+  <TYPE>CSV</TYPE>
+</SOURCE>
+
+<TARGET>
+  <ID>targetId</ID>  
+  <ENDPOINT> path to GoogleProductsFile.csv</ENDPOINT>
+  <VAR>?t</VAR>
+  <PAGESIZE>-1</PAGESIZE>
+  <RESTRICTION></RESTRICTION>  
+  <PROPERTY>id</PROPERTY>
+  <PROPERTY>name</PROPERTY>
+  <PROPERTY>description</PROPERTY>
+  <PROPERTY>price</PROPERTY>
+  <TYPE>CSV</TYPE>
+</TARGET>
+
+<MLALGORITHM>
+  <NAME>type driven wombat simple</NAME>
+  <TYPE>unsupervised</TYPE>
+  <PARAMETER> 
+      <NAME>max execution time in minutes</NAME>
+      <VALUE>59</VALUE>
+	
+  </PARAMETER>
+ 
+  
+</MLALGORITHM>
+
+
+
+
+<ACCEPTANCE>
+  <THRESHOLD>0.5</THRESHOLD>
+  <FILE>accepted.nt</FILE>
+  <RELATION>owl:sameAs</RELATION>
+</ACCEPTANCE>
+<REVIEW>
+  <THRESHOLD>0.1</THRESHOLD>
+  <FILE>reviewme.nt</FILE>
+  <RELATION>owl:sameAs</RELATION>
+</REVIEW>
+<EXECUTION>
+  <REWRITER>DEFAULT</REWRITER>
+  <PLANNER>DEFAULT</PLANNER>
+  <ENGINE>DEFAULT</ENGINE>
+</EXECUTION>
+<OUTPUT>NT</OUTPUT>
+</LIMES>
