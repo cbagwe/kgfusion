@@ -1,0 +1,12 @@
+org\aksw\deer\plugin\example\StdOutModelWriter.class
+org\aksw\deer\plugin\example\WeightedJaccardSimilarityMeasure.class
+org\aksw\deer\plugin\example\KGMatchingOperator.class
+META-INF\extensions.idx
+org\aksw\deer\plugin\example\LimesApproach.class
+org\aksw\deer\plugin\example\BertSimilarityMeasure.class
+org\aksw\deer\plugin\example\FileProcessing.class
+org\aksw\deer\plugin\example\JaccardSimilarityMeasure.class
+org\aksw\deer\plugin\example\DiceSimilarityMeasure.class
+org\aksw\deer\plugin\example\CosineSimilarityMeasure.class
+org\aksw\deer\plugin\example\KGMatchingPlugin.class
+org\aksw\deer\plugin\example\ExampleEnrichmentOperator.class
