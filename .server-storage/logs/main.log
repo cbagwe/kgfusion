@@ -1,0 +1,14 @@
+2022-02-14T17:22:03,491 [main] INFO org.aksw.deer.DeerController 211 - Trying to read DEER configuration from file D:\kgmatching-ravi\src\test\resources\configuration.ttl...
+2022-02-14T17:22:03,678 [main] INFO org.aksw.deer.DeerController 216 - Loading D:\kgmatching-ravi\src\test\resources\configuration.ttl is done in 171ms.
+2022-02-14T17:22:03,678 [main] INFO org.aksw.faraday_cage.engine.FaradayCageContext 130 - Starting Faraday-Cage engine... runId: 8358dd0d-2a35-4226-80aa-876f940ee3a3
+2022-02-14T17:22:03,694 [main] INFO org.aksw.faraday_cage.engine.FaradayCageContext 131 - Building execution model...
+2022-02-14T17:22:04,491 [main] INFO org.aksw.faraday_cage.engine.FaradayCageContext 137 - Configuration shape validated using SHACL after 808ms.
+2022-02-14T17:22:04,524 [main] INFO org.aksw.faraday_cage.engine.AdjacencyMatrix 95 - 
+urn:example:plugin-demo/reader 0 1
+urn:example:plugin-demo/kgmatcher 1 1
+urn:example:plugin-demo/writer 1 0
+
+2022-02-14T17:22:04,524 [main] INFO org.aksw.faraday_cage.engine.FaradayCageContext 145 - Execution graph built after 835ms.
+2022-02-14T17:22:04,524 [main] INFO org.aksw.faraday_cage.engine.FaradayCageContext 148 - Execution graph compiled after 842ms.
+2022-02-14T17:22:04,539 [main] INFO org.aksw.faraday_cage.engine.FaradayCageContext 116 - Starting execution...
+2022-02-14T17:25:33,885 [main] INFO org.aksw.faraday_cage.engine.FaradayCageContext 121 - Execution finished after 209343ms
