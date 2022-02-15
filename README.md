@@ -34,3 +34,7 @@ docker run -it --rm  -v %cd%/plugins:/plugins -v %cd%/src/test/resources:/config
 ## Hobbit Files
 
 Currently there are only eight files on git, more files can be downloaded from Hobbit platform (https://hobbitdata.informatik.uni-leipzig.de/teaching/theses/skuhlmann/) and must be copied in `HobbitFiles/` folder in working directory.
+
+## Selecting Techniques to match KG
+
+Go to `./src/test/resources/configuration.ttl` and enter your choice there in ```deer:matchingApproach```
