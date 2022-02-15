@@ -104,6 +104,7 @@
 				<version>2.5.2</version>
 				<executions>
 					<execution>
+					 <id>install1</id>
 						<phase>initialize</phase>
 						<goals>
 							<goal>install-file</goal>
@@ -116,16 +117,9 @@
 							<packaging>jar</packaging>
 						</configuration>
 					</execution>
-				</executions>
-			</plugin>
-
-
-			<plugin>
-				<groupId>org.apache.maven.plugins</groupId>
-				<artifactId>maven-install-plugin</artifactId>
-				<version>2.5.2</version>
-				<executions>
+					 
 					<execution>
+					 <id>install2</id>
 						<phase>initialize</phase>
 						<goals>
 							<goal>install-file</goal>
@@ -137,7 +131,9 @@
 							<version>4.0</version>
 							<packaging>jar</packaging>
 						</configuration>
-					</execution>
+					
+				</execution>
+					
 				</executions>
 			</plugin>
 
