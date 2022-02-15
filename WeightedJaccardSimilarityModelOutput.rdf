@@ -1,0 +1,68 @@
+<data_nobelprize_org.nt>
+        <WeightedJaccardSimilarityValue= 0.03285252015576153>
+                <onto_fel_cvut_cz_rdf4j-server_repositories.nt> ;
+        <WeightedJaccardSimilarityValue= 0.0618588045750753>
+                <lov_linkeddata_es_dataset_lov.nt> ;
+        <WeightedJaccardSimilarityValue= 0.06632699359079926>
+                <harvard_eagle-i_net_sparqler.nt> ;
+        <WeightedJaccardSimilarityValue= 0.09344606944098084>
+                <www_imagesnippets_com_sparql.nt> ;
+        <WeightedJaccardSimilarityValue= 0.47546110097269717>
+                <dbtune_org_magnatune_sparql.nt> ;
+        <WeightedJaccardSimilarityValue= 0.5724866009462923>
+                <dbtune_org_bbc_peel_sparql.nt> ;
+        <WeightedJaccardSimilarityValue= 0.7123726306934589>
+                <ldf_fi_ww1lod.nt> .
+
+<harvard_eagle-i_net_sparqler.nt>
+        <WeightedJaccardSimilarityValue= 0.002409502853993781>
+                <onto_fel_cvut_cz_rdf4j-server_repositories.nt> ;
+        <WeightedJaccardSimilarityValue= 0.07644251174635323>
+                <ldf_fi_ww1lod.nt> ;
+        <WeightedJaccardSimilarityValue= 0.4277544815142757>
+                <www_imagesnippets_com_sparql.nt> ;
+        <WeightedJaccardSimilarityValue= 0.8077033774648265>
+                <lov_linkeddata_es_dataset_lov.nt> .
+
+<ldf_fi_ww1lod.nt>  <WeightedJaccardSimilarityValue= 0.030626070506429428>
+                <onto_fel_cvut_cz_rdf4j-server_repositories.nt> ;
+        <WeightedJaccardSimilarityValue= 0.07014122531924301>
+                <lov_linkeddata_es_dataset_lov.nt> ;
+        <WeightedJaccardSimilarityValue= 0.1094706375199939>
+                <www_imagesnippets_com_sparql.nt> .
+
+<dbtune_org_bbc_peel_sparql.nt>
+        <WeightedJaccardSimilarityValue= 0.018612310847341763>
+                <onto_fel_cvut_cz_rdf4j-server_repositories.nt> ;
+        <WeightedJaccardSimilarityValue= 0.1013587551028958>
+                <lov_linkeddata_es_dataset_lov.nt> ;
+        <WeightedJaccardSimilarityValue= 0.11214523076669594>
+                <harvard_eagle-i_net_sparqler.nt> ;
+        <WeightedJaccardSimilarityValue= 0.16156804215786053>
+                <www_imagesnippets_com_sparql.nt> ;
+        <WeightedJaccardSimilarityValue= 0.6641174495034304>
+                <ldf_fi_ww1lod.nt> ;
+        <WeightedJaccardSimilarityValue= 0.7505313203507501>
+                <dbtune_org_magnatune_sparql.nt> .
+
+<dbtune_org_magnatune_sparql.nt>
+        <WeightedJaccardSimilarityValue= 0.016257514690116572>
+                <onto_fel_cvut_cz_rdf4j-server_repositories.nt> ;
+        <WeightedJaccardSimilarityValue= 0.09599226055629119>
+                <lov_linkeddata_es_dataset_lov.nt> ;
+        <WeightedJaccardSimilarityValue= 0.1191404403752445>
+                <harvard_eagle-i_net_sparqler.nt> ;
+        <WeightedJaccardSimilarityValue= 0.17462982042097444>
+                <www_imagesnippets_com_sparql.nt> ;
+        <WeightedJaccardSimilarityValue= 0.5830870476648682>
+                <ldf_fi_ww1lod.nt> .
+
+<lov_linkeddata_es_dataset_lov.nt>
+        <WeightedJaccardSimilarityValue= 0.0024604085756945314>
+                <onto_fel_cvut_cz_rdf4j-server_repositories.nt> ;
+        <WeightedJaccardSimilarityValue= 0.3471753764982609>
+                <www_imagesnippets_com_sparql.nt> .
+
+<onto_fel_cvut_cz_rdf4j-server_repositories.nt>
+        <WeightedJaccardSimilarityValue= 0.0025054217913138407>
+                <www_imagesnippets_com_sparql.nt> .

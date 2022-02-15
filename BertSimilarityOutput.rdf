@@ -1,0 +1,126 @@
+<data_nobelprize_org.nt>
+        <BertSimilarityOutput=0.30814027786254883>
+                <lov_linkeddata_es_dataset_lov.nt> ;
+        <BertSimilarityOutput=0.3201459050178528>
+                <dbtune_org_bbc_peel_sparql.nt> ;
+        <BertSimilarityOutput=0.3381156325340271>
+                <onto_fel_cvut_cz_rdf4j-server_repositories.nt> ;
+        <BertSimilarityOutput=0.3887961506843567>
+                <ldf_fi_ww1lod.nt> ;
+        <BertSimilarityOutput=0.39039403200149536>
+                <www_imagesnippets_com_sparql.nt> ;
+        <BertSimilarityOutput=0.43147435784339905>
+                <dbtune_org_magnatune_sparql.nt> ;
+        <BertSimilarityOutput=0.43534761667251587>
+                <harvard_eagle-i_net_sparqler.nt> .
+
+<harvard_eagle-i_net_sparqler.nt>
+        <BertSimilarityOutput=0.33687567710876465>
+                <dbtune_org_bbc_peel_sparql.nt> ;
+        <BertSimilarityOutput=0.43534761667251587>
+                <data_nobelprize_org.nt> ;
+        <BertSimilarityOutput=0.43882322311401367>
+                <dbtune_org_magnatune_sparql.nt> ;
+        <BertSimilarityOutput=0.49776071310043335>
+                <www_imagesnippets_com_sparql.nt> ;
+        <BertSimilarityOutput=0.549907922744751>
+                <ldf_fi_ww1lod.nt> ;
+        <BertSimilarityOutput=0.692672848701477>
+                <onto_fel_cvut_cz_rdf4j-server_repositories.nt> ;
+        <BertSimilarityOutput=0.6983715295791626>
+                <lov_linkeddata_es_dataset_lov.nt> .
+
+<www_imagesnippets_com_sparql.nt>
+        <BertSimilarityOutput=0.39039403200149536>
+                <data_nobelprize_org.nt> ;
+        <BertSimilarityOutput=0.4702327251434326>
+                <dbtune_org_bbc_peel_sparql.nt> ;
+        <BertSimilarityOutput=0.4878219962120056>
+                <onto_fel_cvut_cz_rdf4j-server_repositories.nt> ;
+        <BertSimilarityOutput=0.49776071310043335>
+                <harvard_eagle-i_net_sparqler.nt> ;
+        <BertSimilarityOutput=0.5174009799957275>
+                <lov_linkeddata_es_dataset_lov.nt> ;
+        <BertSimilarityOutput=0.546363115310669>
+                <dbtune_org_magnatune_sparql.nt> ;
+        <BertSimilarityOutput=0.5894842147827148>
+                <ldf_fi_ww1lod.nt> .
+
+<ldf_fi_ww1lod.nt>  <BertSimilarityOutput=0.3887961506843567>
+                <data_nobelprize_org.nt> ;
+        <BertSimilarityOutput=0.40393006801605225>
+                <dbtune_org_bbc_peel_sparql.nt> ;
+        <BertSimilarityOutput=0.5440313816070557>
+                <dbtune_org_magnatune_sparql.nt> ;
+        <BertSimilarityOutput=0.549907922744751>
+                <harvard_eagle-i_net_sparqler.nt> ;
+        <BertSimilarityOutput=0.5833879113197327>
+                <lov_linkeddata_es_dataset_lov.nt> ;
+        <BertSimilarityOutput=0.5894842147827148>
+                <www_imagesnippets_com_sparql.nt> ;
+        <BertSimilarityOutput=0.6099352836608887>
+                <onto_fel_cvut_cz_rdf4j-server_repositories.nt> .
+
+<dbtune_org_bbc_peel_sparql.nt>
+        <BertSimilarityOutput=0.3201459050178528>
+                <data_nobelprize_org.nt> ;
+        <BertSimilarityOutput=0.33687567710876465>
+                <harvard_eagle-i_net_sparqler.nt> ;
+        <BertSimilarityOutput=0.3459179401397705>
+                <lov_linkeddata_es_dataset_lov.nt> ;
+        <BertSimilarityOutput=0.3609713912010193>
+                <onto_fel_cvut_cz_rdf4j-server_repositories.nt> ;
+        <BertSimilarityOutput=0.40393006801605225>
+                <ldf_fi_ww1lod.nt> ;
+        <BertSimilarityOutput=0.4702327251434326>
+                <www_imagesnippets_com_sparql.nt> ;
+        <BertSimilarityOutput=0.6841681003570557>
+                <dbtune_org_magnatune_sparql.nt> .
+
+<dbtune_org_magnatune_sparql.nt>
+        <BertSimilarityOutput=0.43147435784339905>
+                <data_nobelprize_org.nt> ;
+        <BertSimilarityOutput=0.43882322311401367>
+                <harvard_eagle-i_net_sparqler.nt> ;
+        <BertSimilarityOutput=0.4442790746688843>
+                <lov_linkeddata_es_dataset_lov.nt> ;
+        <BertSimilarityOutput=0.47073984146118164>
+                <onto_fel_cvut_cz_rdf4j-server_repositories.nt> ;
+        <BertSimilarityOutput=0.5440313816070557>
+                <ldf_fi_ww1lod.nt> ;
+        <BertSimilarityOutput=0.546363115310669>
+                <www_imagesnippets_com_sparql.nt> ;
+        <BertSimilarityOutput=0.6841681003570557>
+                <dbtune_org_bbc_peel_sparql.nt> .
+
+<lov_linkeddata_es_dataset_lov.nt>
+        <BertSimilarityOutput=0.30814027786254883>
+                <data_nobelprize_org.nt> ;
+        <BertSimilarityOutput=0.3459179401397705>
+                <dbtune_org_bbc_peel_sparql.nt> ;
+        <BertSimilarityOutput=0.4442790746688843>
+                <dbtune_org_magnatune_sparql.nt> ;
+        <BertSimilarityOutput=0.5174009799957275>
+                <www_imagesnippets_com_sparql.nt> ;
+        <BertSimilarityOutput=0.5833879113197327>
+                <ldf_fi_ww1lod.nt> ;
+        <BertSimilarityOutput=0.6983715295791626>
+                <harvard_eagle-i_net_sparqler.nt> ;
+        <BertSimilarityOutput=0.8569778203964233>
+                <onto_fel_cvut_cz_rdf4j-server_repositories.nt> .
+
+<onto_fel_cvut_cz_rdf4j-server_repositories.nt>
+        <BertSimilarityOutput=0.3381156325340271>
+                <data_nobelprize_org.nt> ;
+        <BertSimilarityOutput=0.3609713912010193>
+                <dbtune_org_bbc_peel_sparql.nt> ;
+        <BertSimilarityOutput=0.47073984146118164>
+                <dbtune_org_magnatune_sparql.nt> ;
+        <BertSimilarityOutput=0.4878219962120056>
+                <www_imagesnippets_com_sparql.nt> ;
+        <BertSimilarityOutput=0.6099352836608887>
+                <ldf_fi_ww1lod.nt> ;
+        <BertSimilarityOutput=0.692672848701477>
+                <harvard_eagle-i_net_sparqler.nt> ;
+        <BertSimilarityOutput=0.8569778203964233>
+                <lov_linkeddata_es_dataset_lov.nt> .

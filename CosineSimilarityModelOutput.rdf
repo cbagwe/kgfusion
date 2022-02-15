@@ -1,0 +1,68 @@
+<data_nobelprize_org.nt>
+        <CosineSimilarityValue=0.08144705600839404>
+                <onto_fel_cvut_cz_rdf4j-server_repositories.nt> ;
+        <CosineSimilarityValue=0.13228096612016998>
+                <lov_linkeddata_es_dataset_lov.nt> ;
+        <CosineSimilarityValue=0.137644216732015>
+                <harvard_eagle-i_net_sparqler.nt> ;
+        <CosineSimilarityValue=0.16142999321036197>
+                <www_imagesnippets_com_sparql.nt> ;
+        <CosineSimilarityValue=0.16573000773954985>
+                <dbtune_org_bbc_peel_sparql.nt> ;
+        <CosineSimilarityValue=0.1803550249160018>
+                <ldf_fi_ww1lod.nt> ;
+        <CosineSimilarityValue=0.18725350694355236>
+                <dbtune_org_magnatune_sparql.nt> .
+
+<harvard_eagle-i_net_sparqler.nt>
+        <CosineSimilarityValue=0.06897558023614744>
+                <onto_fel_cvut_cz_rdf4j-server_repositories.nt> ;
+        <CosineSimilarityValue=0.18472802849982525>
+                <ldf_fi_ww1lod.nt> ;
+        <CosineSimilarityValue=0.20855429765779288>
+                <www_imagesnippets_com_sparql.nt> ;
+        <CosineSimilarityValue=0.23377998836200478>
+                <lov_linkeddata_es_dataset_lov.nt> .
+
+<ldf_fi_ww1lod.nt>  <CosineSimilarityValue=0.12343275350186873>
+                <onto_fel_cvut_cz_rdf4j-server_repositories.nt> ;
+        <CosineSimilarityValue=0.21235205618990444>
+                <www_imagesnippets_com_sparql.nt> ;
+        <CosineSimilarityValue=0.2503876065451153>
+                <lov_linkeddata_es_dataset_lov.nt> .
+
+<dbtune_org_bbc_peel_sparql.nt>
+        <CosineSimilarityValue=0.07091277258390598>
+                <onto_fel_cvut_cz_rdf4j-server_repositories.nt> ;
+        <CosineSimilarityValue=0.18768074266353701>
+                <harvard_eagle-i_net_sparqler.nt> ;
+        <CosineSimilarityValue=0.18868181437861545>
+                <lov_linkeddata_es_dataset_lov.nt> ;
+        <CosineSimilarityValue=0.2009273401219614>
+                <ldf_fi_ww1lod.nt> ;
+        <CosineSimilarityValue=0.2970333622414379>
+                <www_imagesnippets_com_sparql.nt> ;
+        <CosineSimilarityValue=0.3298680475344317>
+                <dbtune_org_magnatune_sparql.nt> .
+
+<dbtune_org_magnatune_sparql.nt>
+        <CosineSimilarityValue=0.0889315456108269>
+                <onto_fel_cvut_cz_rdf4j-server_repositories.nt> ;
+        <CosineSimilarityValue=0.19613865186497031>
+                <harvard_eagle-i_net_sparqler.nt> ;
+        <CosineSimilarityValue=0.20704257738451431>
+                <lov_linkeddata_es_dataset_lov.nt> ;
+        <CosineSimilarityValue=0.23718777542258637>
+                <ldf_fi_ww1lod.nt> ;
+        <CosineSimilarityValue=0.2775141717071967>
+                <www_imagesnippets_com_sparql.nt> .
+
+<lov_linkeddata_es_dataset_lov.nt>
+        <CosineSimilarityValue=0.06330615619865751>
+                <onto_fel_cvut_cz_rdf4j-server_repositories.nt> ;
+        <CosineSimilarityValue=0.22540914551387842>
+                <www_imagesnippets_com_sparql.nt> .
+
+<onto_fel_cvut_cz_rdf4j-server_repositories.nt>
+        <CosineSimilarityValue=0.06451249432969683>
+                <www_imagesnippets_com_sparql.nt> .
