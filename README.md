@@ -1,23 +1,28 @@
 # DEER Instance Matching Operator
 It is a sub-task of Knowledge Graph Fusion.
 
-## Guide: How to the example
+# Requirements
+
+1. Java 11
+2. Docker
+
+## Guide: How to run the example
 In the example folder you can find the example of DEER instance matching operator. The folder contains source data, target data
 and plugin jar file. In this example we are comparing **"foaf:Person"** in **"data_nobelprize_org.nt"** with **"foaf:Person"** in **"lov_linkeddata_es_dataset_lov.nt"**.
 
 Step 1: Clone the repo and change branch to instanceMatch
 
 
-    git clone https://github.com/binhudakhalid/DEER-InstanceMachingOperator.git --branch instanceMatch
+    git clone https://git.cs.uni-paderborn.de/kgfusionpg/kgfusion.git --branch instance_matching
 
 
 Step 2: 
     
-    cd DEER-InstanceMachingOperator
+    cd kgfusion
 
 Step 3: Change directory to example, Here you can find the configuration.ttl file.
     
-    cd example/
+    cd example
 
 Step 4: Run the instance matching operator through docker and feed the data as well as configuration file
 
@@ -29,7 +34,7 @@ For linux base system:
 
     docker run -it --rm -v $(pwd)/data:/data -v $(pwd)/plugins:/plugins -v $(pwd)/:/config dicegroup/deer:latest /config/configuration.ttl
   
-Resut
+Result
 
 ![Alt text](/screenshot/exampl1.png?raw=true "Title")
 
@@ -56,6 +61,28 @@ the confidence is ***0.707***
 
 **Note**: if you are on windows please use docker for running DEER  because sometimes it has issue on windows.
 
+
+## Guide: How to run the example 2
+In the first example, we were using files to get the source and target dataset. In the second example, we are using URL endpoint to get the source and target dataset. Here were are comparing movies from Dbpedia to movies
+in yago.
+
+Step 1: Change directory to example, Here you can find the configuration.ttl file.
+    
+    cd example
+
+Step 2: Run the instance matching operator through docker and feed the data as well as configuration file
+
+For windows:
+
+    docker run -it --rm -v %cd%/data:/data -v %cd%/plugins:/plugins -v %cd%/:/config dicegroup/deer:latest /config/configurationURL.ttl
+
+For linux base system:   
+
+    docker run -it --rm -v $(pwd)/data:/data -v $(pwd)/plugins:/plugins -v $(pwd)/:/config dicegroup/deer:latest /config/configurationURL.ttl
+
+
+Result
+![Alt text](/screenshot/exampl2.png?raw=true "Output")
 
 # Configuration file
 
