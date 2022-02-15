@@ -9,7 +9,7 @@
       ```
       b. **FCA-Map Jar Installation in Maven ::**
       ```cmd 
-      mvn install:install-file -Dfile="[path-to-jar-file-in-repo]" -DgroupId=cn.ac.amss.semanticweb -DartifactId=FCA-Map -Dversion=1.1.0 -Dpackaging=jar
+      mvn install:install-file -Dfile=[path-to-jar-file-in-repo] -DgroupId=cn.ac.amss.semanticweb -DartifactId=FCA-Map -Dversion=1.1.0 -Dpackaging=jar
       ```
 4. Use `mvn clean package` in parent folder to generate the plugin under
 `./target/plugin-starter-${version}-plugin.jar`.
