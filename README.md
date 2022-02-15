@@ -4,6 +4,6 @@ The ***type_driven_wombat_simple*** and ***instance_matching***  branch belong t
 
 The ***kg_matching*** branch belongs to Chaitali Suhas Bagwe and Raviteja Kanargala
 
-The **ontologyMatching** branch belongs to Sowmya Kamath Ramesh and Krishna Madhav
+The _**ontologyMatching**_ branch belongs to Sowmya Kamath Ramesh and Krishna Madhav
 
-The **data_consolidation** branch belongs to Philip Coutinho de Sousa
+The _**data_consolidation**_ branch belongs to Philip Coutinho de Sousa
