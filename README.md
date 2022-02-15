@@ -24,4 +24,5 @@ want to invoke DEER and it will automatically be loaded.
 ```cmd
 docker run -it --rm  -v %cd%/plugins:/plugins -v %cd%/src/test/resources:/config dicegroup/deer:latest /config/configuration.ttl
 ```
+## Output****
 ![Alt text](/screenshot/Output.JPG?raw=true "Output")
