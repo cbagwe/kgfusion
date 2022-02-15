@@ -23,15 +23,18 @@ want to invoke DEER and it will automatically be loaded.
 
 # Configuration file
 
-The DEER Framework looks for parameter like matching_Library for selecting one of the implementation i.e LogMap or FCA-Map.
-It uses typeOfMap parameter for choosing different combination of Mappings. 
+The DEER Framework uses parameter like matching_Library and typeOfMap for Ontology matching. 
 
 ![Alt text](/screenshot/conf.png?raw=true "Output")
+
+**typeOfMap** :  set to class or dataproperty or combination of different mappings.
+
+**matching_Library** : set to either matcher FCA-Map or LogMap.
 
 
 ## For Windows
 
-### Docker command for Windows cmd
+### Docker command cmd
 ```cmd
 docker run -it --rm  -v %cd%/plugins:/plugins -v %cd%/src/test/resources:/config dicegroup/deer:latest /config/configuration.ttl
 ```
