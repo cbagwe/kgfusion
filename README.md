@@ -1,10 +1,10 @@
 # Knowledge Graph Matching Operator
 
-##Technical Requirements
+## Technical Requirements
 1. Java (version 12+)
 2. Python (version 3.8+)
 
-##Run Configuration
+## How to run KG Matching Operator
 Using `mvn clean package` in this folder will generate the plugin under
 `./target/plugin-starter-${version}-plugin.jar`.
 Copy the plugin into a folder named `plugins/` in the working directory from which you
@@ -30,3 +30,7 @@ docker run -it --rm \
 ```cmd
 docker run -it --rm  -v %cd%/plugins:/plugins -v %cd%/src/test/resources:/config dicegroup/deer:latest /config/configuration.ttl
 ```
+
+## Hobbit Files
+
+Currently there are only eight files on git, more files can be downloaded from Hobbit platform (https://hobbitdata.informatik.uni-leipzig.de/teaching/theses/skuhlmann/) and must be copied in ./HobbitFiles folder in working directory.
