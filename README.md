@@ -1,5 +1,14 @@
 # Data Consolidation
 
+ConsolidationOperator  -  Logic Operator
+
+ConsolidationStrategys -  Strategy Mapping 
+
+FusionStrategy - Enum for Naming inside the ConsolidationStrategy&Operator
+
+--------------------
+
+
 ## Testing 
 
 To just test it, use the given Tests in the DataConsiladtionTest
